@@ -1,3 +1,16 @@
-div{
-	background-color: red;
+#container{
+	width: 960px; height: 960px;
+	background-color: blue;
+}
+
+.div_cell{
+	background-color: yellow;
+	float: left;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: red;	
+}
+.div_cell_hovered{
+	background-color: green;
+	float: left;
 }
